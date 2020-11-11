@@ -5,5 +5,7 @@ def compare(num_1, num_2):
         return (f'{num_1} is less than {num_2}')
     elif num_1 == num_2:
         return (f'{num_1} is equal to {num_2}')
+    else:
+        return ("That's not an integer")
     
         

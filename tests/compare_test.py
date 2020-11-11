@@ -12,3 +12,6 @@ class TestCompare(unittest.TestCase):
 
     def test_compare_10_10_returns_10_is_equal_to_10(self):
         self.assertEqual("10 is equal to 10", compare(10, 10))
+
+    def test_not_a_Number(self):
+        self.assertNotEqual("That is not an intger", "One")
